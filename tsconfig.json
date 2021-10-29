@@ -1,31 +1,32 @@
 {
-  "compilerOptions": {
-      "target": "es5",
-      "lib": ["dom", "dom.iterable", "esnext"],
-      "types": ["jest", "node", "@types/testing-library__jest-dom"],
-      "allowJs": true,
-      "skipLibCheck": true,
-      "strict": true,
-      "forceConsistentCasingInFileNames": true,
-      "noEmit": true,
-      "esModuleInterop": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-      "isolatedModules": true,
-      "jsx": "preserve",
-      "jsxImportSource": "@emotion/react",
-      "baseUrl": ".",
-      "paths": {
-          "@/*": ["src/*"],
-          "@common/*": ["src/common/*"],
-          "@assets/*": ["src/assets/*"],
-          "@pages/*": ["src/pages/*"],
-          "@domains/*": ["src/domains/*"],
-          "@User/*": ["src/domains/User/*"],
-          "@Errors/*": ["src/domains/Errors/*"]
-      }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": []
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "types": ["jest", "node", "@types/testing-library__jest-dom"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "jsxImportSource": "@emotion/react",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"],
+            "@common/*": ["src/common/*"],
+            "@assets/*": ["src/assets/*"],
+            "@pages/*": ["src/pages/*"],
+            "@domains/*": ["src/domains/*"],
+            "@User/*": ["src/domains/User/*"],
+            "@Errors/*": ["src/domains/Errors/*"]
+        },
+        "incremental": true
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": []
 }
